@@ -1,7 +1,5 @@
 import React from 'react';
-import Project from './Project';
-//import BB from "../../images/Bb_Website_Preview.png"
-
+import Project from '../Project';
 
 const projects = [
   {
