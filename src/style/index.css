@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-image: url("../images/minons.jpg");
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.head {
+  font-size: 25px;
+  color: cyan
+}
+
+.head1 {
+  font-size: 25px;
+  color: royalblue
+}
+
+.foot {
+  border: solid 3px royalblue;
+  border-radius: 100%;
+}
+
+.name {
+  font-size: 40px;
+  color: cyan
+}
+
+.selfie {
+  width: 150px;
+  height: 200px;
+  border-radius: 100%;
+  border: dashed black 2px;
+}
