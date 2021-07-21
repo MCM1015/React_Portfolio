@@ -3,10 +3,9 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
       <a
         href="https://drive.google.com/file/d/1iI94lU70pqxP9NZAK8RFmz55XU_MTIQ0/view?usp=sharing"
-        target="_blank" rel="noreferrer" className="text-light py-2">Download My Resume</a>
+        target="_blank" rel="noreferrer" className="resume">Download My Resume</a>
         <div className="row">
       <div className="card col-lg" style={{ width: "18rem;" }}>
         <div className="card-header list-group-item-info">

@@ -24,7 +24,7 @@ function Header() {
 
   return (
     <div>
-      <div className="navbar navbar-expand-lg w-full head bg-dark">
+      <div className="navbar navbar-expand-lg w-full">
         <h1 className="navbar-brand name">Mary McClernan</h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
