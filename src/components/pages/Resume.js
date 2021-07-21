@@ -1,34 +1,37 @@
 import React from 'react';
+import resume from '../../images/resume.jpg'
 
 export default function Resume() {
   return (
     <div>
-      <a
-        href="https://drive.google.com/file/d/1iI94lU70pqxP9NZAK8RFmz55XU_MTIQ0/view?usp=sharing"
-        target="_blank" rel="noreferrer" className="resume">Download My Resume</a>
         <div className="row">
-      <div className="card col-lg" style={{ width: "18rem;" }}>
-        <div className="card-header list-group-item-info">
+      <div className="card col-lg">
+        <div className="card-header">
           Front End Proficiencies:
         </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">HTML</li>
-          <li className="list-group-item">JavaScript</li>
-          <li className="list-group-item">jQuery</li>
-          <li className="list-group-item">CSS</li>
-          <li className="list-group-item">React</li>
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>CSS</li>
+          <li>React</li>
         </ul>
       </div>
-      <div className="card col-lg" style={{ width: "18rem;" }}>
-        <div className="card-header list-group-item-info">
+      <div className="col-lg">
+      <a
+        href="https://drive.google.com/file/d/1iI94lU70pqxP9NZAK8RFmz55XU_MTIQ0/view?usp=sharing"
+        target="_blank" rel="noreferrer" className="d-flex justify-content-center"><img src={resume} alt="resume"></img></a>
+        </div>
+      <div className="card col-lg">
+        <div className="card-header">
           Back End Proficiencies:
         </div>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">Node</li>
-          <li className="list-group-item">mySQL</li>
-          <li className="list-group-item">mongoose</li>
-          <li className="list-group-item">Express</li>
-          <li className="list-group-item">API's</li>
+        <ul>
+          <li>Node</li>
+          <li>mySQL</li>
+          <li>mongoose</li>
+          <li>Express</li>
+          <li>API's</li>
         </ul>
       </div>
       </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import Selfie from '../../images/Selfie.jpeg';
-//import backGround from '../../images/blue-marble-paint-background.jpg'
 
 export default function About() {
   return (
