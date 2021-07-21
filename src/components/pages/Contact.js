@@ -87,14 +87,14 @@ export default function Contact() {
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email address</label>
               <input value={email} name="email" onChange={handleInputChange}  onMouseOut={handleInputEmail} type="email" className="form-control" placeholder="Enter Email" aria-describedby="emailHelp" required/>
-              <span>{errorMessageEmail}</span>
+              <span className="text-danger">{errorMessageEmail}</span>
               <br></br>
-              <span>{errorMessageEmail2}</span>
+              <span className="text-danger">{errorMessageEmail2}</span>
             </div>
             <div className="form-group">
               <label htmlFor="message">Message</label>
               <textarea value={message} name="message" onChange={handleInputChange} onMouseOut={handleInputMessage} className="form-control" rows="5" placeholder="Enter Message" required></textarea>
-              <span>{errorMessageMessage}</span>
+              <span className="text-danger">{errorMessageMessage}</span>
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
           </form>
